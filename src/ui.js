@@ -17,7 +17,7 @@ class ChatUI {
     });
 
     const html = `
-      <li class="list-group-item">
+      <li class="list-group-item mb-2">
         <span class="username">${data.username}:</span>
         <span class="message">${data.message}</span>
         <div class="time">${when}</div>
