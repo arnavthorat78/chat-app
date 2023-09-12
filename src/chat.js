@@ -70,11 +70,3 @@ class Chatroom {
     if (this.unsub) this.unsub();
   }
 }
-
-const chatroom = new Chatroom("general", "Arnav");
-chatroom.getChats(console.log);
-
-setTimeout(() => {
-  chatroom.updateRoom("school");
-  chatroom.getChats(console.log);
-}, 3000);
